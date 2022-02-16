@@ -1,23 +1,52 @@
 
 body{
+    margin: 0;
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .name-style{
     color: orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 10%;
 
 }
 .half-width img{
     width: 80%;
+}
+p{  font-weight: 500;
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon , tomato);
+    padding: 10px 40px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 800;
+
+}
+.link-button:hover{
+    color: greenyellow;
+}
+h3{
+    color: tomato;
+}
+.first-section{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.second-section{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
