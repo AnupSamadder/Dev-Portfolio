@@ -8,10 +8,13 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 35px;
+}
 .name-style{
     color: orange;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -49,4 +52,32 @@ h3{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.last-section{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-1{
+    border-image: linear-gradient(cyan, gold);
+    border-left: 8px solid;
+    border-image-slice: 1;
+
+}
+#border-2{
+    border-image: linear-gradient(lightsalmon, cyan);
+    border-left: 8px solid;
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
